@@ -1,0 +1,5 @@
+int8 channel
+int8 mode
+float64 value
+---
+bool success

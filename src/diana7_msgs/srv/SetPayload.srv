@@ -1,0 +1,6 @@
+float32 mass
+float64[3] cog
+float64[6] inertia
+float64[6] payload_origin_frame
+---
+bool success

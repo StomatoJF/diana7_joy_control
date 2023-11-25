@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <!-- 手柄节点 -->
+    <node pkg="joy" name="joy_node" type="joy_node" output="screen"></node>
+    <!-- 手柄接收转机械臂控制指令 -->
+    <!-- <node pkg="joystick_control" name="joystick_xbox_control_node" type="joystick_xbox_control_node"
+        output="screen"></node> -->
+    <node pkg="joystick_control" name="joystick_ps5_control_node" type="joystick_ps5_control_node"
+        output="screen"></node>
+    <!-- 机械臂控制节点 -->
+    <!-- <node pkg="diana7_python" name="diana7_vel_control" type="diana7_vel_control.py"
+        output="screen"></node> -->
+    <node pkg="diana7_python" name="diana7_joint_control" type="diana7_joint_control.py"
+        output="screen"></node>   
+</launch>

@@ -1,0 +1,4 @@
+float64[7] q
+---
+geometry_msgs/Pose cartesian_pose 
+bool success

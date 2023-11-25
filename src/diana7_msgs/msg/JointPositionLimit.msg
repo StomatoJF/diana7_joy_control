@@ -1,0 +1,2 @@
+float32 MIN_configuration
+float32 MAX_configuration

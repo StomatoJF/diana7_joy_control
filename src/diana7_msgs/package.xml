@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>diana7_msgs</name>
+    <version>0.1.5</version>
+    <description>The diana7_msgs package</description>
+
+    <maintainer email="jakub.hulas@agile-robots.com">Jakub Hulas</maintainer>
+    <maintainer email="athanasios.tsitos@agile-robots.com">Thanasis Tsitos</maintainer>
+
+    <license>Apache-2.0</license>
+
+    <buildtool_depend>catkin</buildtool_depend>
+    <build_depend>geometry_msgs</build_depend>
+    <build_depend>std_msgs</build_depend>
+    <build_depend>message_generation</build_depend>
+
+    <build_export_depend>geometry_msgs</build_export_depend>
+    <build_export_depend>std_msgs</build_export_depend>
+    <build_export_depend>message_generation</build_export_depend>
+
+    <exec_depend>geometry_msgs</exec_depend>
+    <exec_depend>std_msgs</exec_depend>
+    <exec_depend>message_runtime</exec_depend>
+
+    <export>
+    </export>
+</package>

@@ -1,0 +1,5 @@
+geometry_msgs/Transform transform
+float64[7] initial_guess
+---
+float64[7] joint_positions
+bool success
